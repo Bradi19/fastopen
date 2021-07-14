@@ -1,0 +1,14 @@
+[0;1;32m●[0m mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Tue 2021-07-13 19:48:01 EEST; 1min 58s ago
+       Docs: man:mysqld(8)
+             http://dev.mysql.com/doc/refman/en/using-systemd.html
+   Main PID: 1221493 (mysqld)
+     Status: "Server is operational"
+      Tasks: 38 (limit: 9355)
+     Memory: 331.5M
+     CGroup: /system.slice/mysql.service
+             └─1221493 /usr/sbin/mysqld
+
+июл 13 19:48:00 nikos-Lenovo-ideapad-330-15IKB systemd[1]: Starting MySQL Community Server...
+июл 13 19:48:01 nikos-Lenovo-ideapad-330-15IKB systemd[1]: Started MySQL Community Server.
