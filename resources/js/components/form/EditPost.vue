@@ -78,6 +78,7 @@ v-on:change="onFileChanges">
                         //this.$router.push({ name: 'home' });
                     });
             },
+            
             updateForm() {
                if(this.imaged == null){
                }else{
